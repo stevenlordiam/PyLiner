@@ -21,7 +21,7 @@ def print_line_number(path, file_type):
 				file_count += 1
 				line_count += count_line(os.path.join(root, file))
 	print "Total file number: " + str(file_count)
-	print "Tocal line of number: " + str(line_count)
+	print "Total line of number: " + str(line_count)
 
 if "__main__" == __name__:
 	parser = argparse.ArgumentParser(description = 'A Python tool that helps you to see how many lines of code you have written in the current project directory or user-defined path')
